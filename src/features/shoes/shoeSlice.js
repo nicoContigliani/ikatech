@@ -3,8 +3,9 @@ import jsonShoes from '../../zapato.json'
 
 
 const initialState = {
-    shoes: [],
+    shoes: [jsonShoes],
     shoesSelected: [],
+    shoesShow: [],
     value: 0,
     status: 'idle',
 };
@@ -15,10 +16,10 @@ export const shoesSlice = createSlice({
 
     incrementByAmount: (state, action) => {
         state.value += action.payload;
-      },
+    },
 
 })
-export const {  incrementByAmount } = shoesSlice.actions;
+export const { incrementByAmount } = shoesSlice.actions;
 
 export const selectShoes = (state) => state.shoes;
 

@@ -161,3 +161,13 @@ a:active {
   left: 15px;
   background: #D9D9D9;
 }
+.miniShopCart{
+  flex-direction:row;
+  display: flex;
+
+}
+.miniShopCartImage{
+  width: 40px;
+  height: 25px;
+
+}

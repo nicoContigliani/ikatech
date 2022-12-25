@@ -1,6 +1,9 @@
 import React from 'react'
 
-import shoesPrueba from '../assets/img/1.jpg'
+import shoesPrueba from '../assets/img/11.jpg'
+import Shoe from '../features/shoes/Shoe'
+import ImageShoesCenter from '../components/ImageShoesCenter'
+import MiniCartShop from '../components/MiniCartShop'
 
 
 
@@ -11,14 +14,16 @@ const Products = () => {
             <div className="wrapper">
                 <div className='wall'>
                     <div className="imageShoesCenter">
-                        <img src={shoesPrueba} className="imgShoesCenter" alt="" srcset="" />
+                            <ImageShoesCenter />
+
+
                     </div>
 
-                    
+
                     <div className="wallAll">
-                        si
+                        <MiniCartShop />
                     </div>
-                    
+
                 </div>
                 <div className='wallDetail'>Two</div>
 

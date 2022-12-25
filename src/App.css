@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,4 +36,128 @@
   100% {
     transform: translateY(0px);
   }
+} */
+
+.LineHeader {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  /* width: 360px; */
+  height: 15px;
+  left: 0px;
+  top: 0px;
+  background: #7A4A58;
+}
+
+.LineHeader2 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  /* width: 360px; */
+
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  left: 0px;
+  top: 15px;
+
+  background: #D9D9D9;
+}
+
+.buscador {
+  margin-top: 1%;
+  margin-right: 50%;
+  display: flex;
+  position: relative;
+  width: 75px;
+  height: 16px;
+  float: right;
+  background: #C8C8C8;
+}
+
+
+.logo {
+  position: relative;
+  margin-top: 1%;
+  /* width: 13px; */
+  height: 24px;
+  float: left;
+
+  background: #D9D9D9;
+}
+
+.title {
+  margin-top: 1%;
+}
+
+.nav1 {
+  /* color: black; */
+  display: flex;
+  margin-left: 1%;
+  margin-right: 1%;
+  justify-content: space-around;
+  width: 30%;
+  padding-bottom: -1%;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+  font-size: 10px
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+/* .container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+} */
+
+
+
+.wall {
+  /* position: absolute; */
+  width: 180px;
+  height: 155px;
+
+  background: #dadada;
+}
+
+.wallDetail {
+  /* position: relative; */
+  width: 180px;
+  height: 158px;
+
+  background: #D9D9D9;
+}
+
+.imageShoesCenter {
+  position: fixed;
+  /* width: 151px;
+  height: 82px;
+ */
+  padding-left: 3%;
+}
+
+.imgShoesCenter {
+  position: absolute;
+  top: 30px;
+
+  width: 153px;
+  height: 82px;
+
+}
+
+.wallAll {
+  position: absolute;
+  width: 180px;
+  height: 36px;
+  top: 300px;
+  left: 15px;
+  background: #D9D9D9;
 }

@@ -9,6 +9,7 @@ import WallDetailHeader from '../pages/WallDetailHeader'
 import WallDetaillColor from './walletDetails/WallDetaillColor'
 import Zice from '../pages/walletDetails/Zice'
 import ButtonSend from '../components/ButtonSend'
+import Caroursel from '../components/Caroursel'
 
 
 const Products = () => {
@@ -72,6 +73,12 @@ const Products = () => {
 
                 </div>
             </div>
+
+            <div className='strucutureCoursel'>
+                <Caroursel/>
+            </div>
+
+
 
 
         </>

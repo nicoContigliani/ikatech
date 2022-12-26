@@ -13,7 +13,7 @@ const ButtonSend = () => {
 
 
     const send = (item) => {
-        console.log("🚀 ~ file: ButtonSend.jsx:17 ~ send ~ item", item)
+        console.log("🚀 ~ file: ButtonSend.jsx:16 ~ send ~ item", item)
         dispatch(productForPay(item))
     }
     return (

@@ -15,7 +15,6 @@ import { useSelector, useDispatch } from 'react-redux';
 const Headers = () => {
 
   const shoes = useSelector(selectShoes);
-  console.log("🚀 ~ file: Headers.jsx:18 ~ Headers ~ shoes", shoes)
 
 
 

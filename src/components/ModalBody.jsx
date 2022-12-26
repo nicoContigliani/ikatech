@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
+
 
 const ModalBody = ({ data }) => {
-    console.log("🚀 ~ file: ModalBody.jsx:4 ~ ModalBody ~ data", data)
+   
+
+
     const pay = (pay) => {
         alert(`Forma de pagos`)
     }
     return (
         <div className='modals'>
+
+
+
             <br />
 
             {/* <ul>
@@ -33,6 +39,10 @@ const ModalBody = ({ data }) => {
                 className='ButtonSendModal'
                 onClick={() => pay(data)}
             >PAGAR</div>
+
+   
+
+
         </div>
     )
 }

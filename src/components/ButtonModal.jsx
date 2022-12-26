@@ -13,44 +13,34 @@ import ModalBody from './ModalBody';
 
 
 const ButtonModal = ({ shoes }) => {
-    console.log("🚀 ~ file: ButtonModal.jsx:16 ~ ButtonModal ~ shoes", shoes)
 
 
     const [open, setOpen] = useState(false);
-    const [data, setData] = useState([shoes?.shoesShow])
-    const [todo, setTodo] = useState([
-      
-    ])
-    console.log("🚀 ~ file: ButtonModal.jsx:20 ~ ButtonModal ~ data", data?.nombre)
+    // const [data, setData] = useState([
+    //     shoes?.shoesSelected
+    //     // shoes?.shoesShow
+    // ])
+    // const [todo, setTodo] = useState([
+
+    // ])
 
     // useEffect(() => {
-    //     setData(shoes?.shoesShow)
-    // }, [shoes]);
-
-    // console.log((data)?.length)
-
-    const onOpenModal = () => {
+    //     setData(shoes?.shoesSelected)
+    // }, [shoes.shoesSelected]);
 
 
-        setData(shoes?.shoesShow)
-         setTodo({
-             data,
-             ...todo
-         })
+    const onOpenModal = () => setOpen(true);
 
-
-        setOpen(true);
-    }
 
     const onCloseModal = () => setOpen(false);
 
 
     return (
-        <div>
+        <div className='modalFloat'>
             <div onClick={onOpenModal}>{(shoes?.shoesSelected)?.length == 0 ? "0" : "+"} Carro</div>
             <Modal open={open} onClose={onCloseModal} center><hr />
 
-                <ModalBody data={data} />
+                <ModalBody data={shoes?.shoesSelected} />
 
             </Modal>
         </div>

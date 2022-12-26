@@ -3,6 +3,7 @@ import { selectShoes } from '../features/shoes/shoeSlice';
 import { useSelector, useDispatch } from 'react-redux';
 const WallDetailHeader = () => {
   const shoes = useSelector(selectShoes);
+  console.log("🚀 ~ file: WallDetailHeader.jsx:6 ~ WallDetailHeader ~ shoes", shoes)
   const dataName = shoes?.shoesShow?.nombre
   const dataCost = shoes?.shoesShow?.precio
   const dataRef = shoes?.shoesShow?.referencia

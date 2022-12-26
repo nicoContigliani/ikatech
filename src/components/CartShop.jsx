@@ -9,11 +9,10 @@ const shoesPrueba = require('../assets/img/1.jpg')
 
 
 const CartShop = ({ data }) => {
-    console.log("🚀 ~ file: CartShop.jsx:12 ~ CartShop ~ data", data)
     const dispatch = useDispatch();
 
     const send = (item) => {
-        console.log("🚀 ~ file: ButtonSend.jsx:17 ~ send ~ item", item)
+        console.log("🚀 ~ file: CartShop.jsx:15 ~ send ~ item", item)
         dispatch(productForPay(item))
     }
     return (

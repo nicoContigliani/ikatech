@@ -50,6 +50,7 @@ const data = [
 const MiniCartShop = () => {
     const dispatch = useDispatch();
     const ventana = (item) => {
+        console.log("🚀 ~ file: MiniCartShop.jsx:53 ~ ventana ~ item", item)
         dispatch(showImage(item))
     }
 

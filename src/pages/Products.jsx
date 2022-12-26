@@ -26,6 +26,7 @@ const Products = () => {
 
 
                     <div className="wallAll">
+
                         <MiniCartShop />
                     </div>
 
@@ -78,7 +79,7 @@ const Products = () => {
                 <Caroursel />
             </div>
             <div className='strucutureCoursel'>
-                <Caroursel d={8} />
+                <Caroursel />
             </div>
             <div className='titleBody'>
                 @HUSHPUPPIESCO <br />

@@ -49,7 +49,6 @@ const data = [
 
 const MiniCartShop = () => {
     const dispatch = useDispatch();
-
     const ventana = (item) => {
         dispatch(showImage(item))
     }

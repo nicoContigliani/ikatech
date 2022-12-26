@@ -34,6 +34,26 @@
   float: right;
   background: #C8C8C8;
 }
+.leyendSendHeader{
+  position: relative;
+  text-align: right;
+  font-size: 8px;
+  color: rgb(128, 128, 129);
+  padding-right: 1%;
+
+
+}
+
+.buttonCard{
+  position: relative;  
+  float: right;
+  
+  font-size: 8px;
+  padding-right: 1%;
+  
+}
+
+
 
 
 .logo {
@@ -232,6 +252,27 @@ a:active {
   color: white;
 
 }
+.ButtonSendModal {
+  background: #7A4A58;
+  text-align: center;
+  font-size: 8.47px;
+  color: white;
+
+}
+
+.modals{
+  border: #7A4A58;
+  border-radius: 30%;
+}
+
+
+
+
+.imgShoesCenter{
+    position: relative;
+
+}
+
 
 .leyendDetailProduct {
   top: 50px;

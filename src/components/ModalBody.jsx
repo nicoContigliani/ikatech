@@ -3,7 +3,7 @@ import React from 'react'
 const ModalBody = ({ data }) => {
     console.log("🚀 ~ file: ModalBody.jsx:4 ~ ModalBody ~ data", data)
     const pay = (pay) => {
-        alert(data)
+        alert(`Forma de pagos`)
     }
     return (
         <div className='modals'>

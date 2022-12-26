@@ -75,10 +75,21 @@ const Products = () => {
             </div>
 
             <div className='strucutureCoursel'>
-                <Caroursel/>
+                <Caroursel />
             </div>
-
-
+            <div className='strucutureCoursel'>
+                <Caroursel d={8} />
+            </div>
+            <div className='titleBody'>
+                @HUSHPUPPIESCO <br />
+            </div>
+            <footer>
+                <div className="footerC1">
+                    <h6>Servicio Al cliente</h6>
+                    data <br />
+                    data
+                </div>
+            </footer>
 
 
         </>

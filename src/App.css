@@ -259,6 +259,7 @@ a:active {
   text-align: center;
   font-size: 8.47px;
   color: white;
+  width: 98%;
 
 }
 
@@ -332,26 +333,56 @@ a:active {
 
   /* height: 50px; */
 }
-.imgCards{
+
+.imgCards {
   width: 80%;
   margin: 1%;
   margin: 1%;
 }
-.miniShopCart2{
+
+.miniShopCart2 {
   position: absolute;
   padding-top: 30%;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   width: 30%;
   height: auto;
 
-  
+
 
 }
-.detailCard{
+
+.detailCard {
   font-size: 8px;
 }
-.card2{
+
+.card2 {
   display: flex;
   justify-content: first baseline;
+}
+
+.titleBody {
+  position: relative;
+  justify-content: first baseline;
+  padding-top: 30px;
+  width: 361px;
+  text-align: center;
+  background: #E7E6E2;
+
+
+}
+
+footer {
+  position: relative;
+  width: 360px;
+  height: 98px;
+  left: 1px;
+  top: 1px;
+}
+
+.footerC1 {
+  width: 76px;
+  height: 56px;
+  left: 8px;
+  top: 701px;
 }

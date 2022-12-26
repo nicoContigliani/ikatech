@@ -1,8 +1,21 @@
 import React from 'react'
+
+import { selectShoes, productForPay } from '../../src/features/shoes/shoeSlice';
+import { useSelector, useDispatch } from 'react-redux';
 // import shoesPrueba from '../../src/assets/img/1.jpg'
 const shoesPrueba = require('../assets/img/1.jpg')
+
+
+
+
 const CartShop = ({ data }) => {
-    console.log("🚀 ~ file: CartShop.jsx:5 ~ CartShop ~ data", data)
+    console.log("🚀 ~ file: CartShop.jsx:12 ~ CartShop ~ data", data)
+    const dispatch = useDispatch();
+
+    const send = (item) => {
+        console.log("🚀 ~ file: ButtonSend.jsx:17 ~ send ~ item", item)
+        dispatch(productForPay(item))
+    }
     return (
         <div className='card'>
             <div className="imgCard">
@@ -14,19 +27,21 @@ const CartShop = ({ data }) => {
 
             </div>
             <div className='miniShopCart2'>
-<br />
+                <br />
 
                 <img src={data.length == 0 ? shoesPrueba : require(`../assets/img/${data?.foto}`)
-                    } className="imgCards" alt="" srcset="" />
+                } className="imgCards" alt="" srcset="" />
 
             </div>
             <br />
             <div className="detailCard">
 
-                nombre de las zapatillas:{data.nombre}
-                precio:{data.precio}
-                <div className='ButtonSendModal'>
-                    botón de seleccion
+                {data.nombre} <br />
+                ${data.precio} <br />
+                <div className='ButtonSendModal'
+                    onClick={() => send(data)}
+                >
+                    AÑADIR AL CARRITO
 
                 </div>
 

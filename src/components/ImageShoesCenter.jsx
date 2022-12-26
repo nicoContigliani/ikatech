@@ -8,7 +8,8 @@ const ImageShoesCenter = () => {
     const shoes = useSelector(selectShoes);
 
     return (
-        <img src={shoes?.shoesShow.length == 0 ? shoesPrueba : shoes?.shoesShow[0]} className="imgShoesCenter" alt="" srcset="" />
+        <img src={shoes?.shoesShow.length == 0 ? shoesPrueba : require(`../assets/img/${shoes?.shoesShow?.foto}`)
+        } className="imgShoesCenter" alt="" srcset="" />
     )
 }
 

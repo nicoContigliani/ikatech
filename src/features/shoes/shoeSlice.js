@@ -13,13 +13,13 @@ const initialState = {
 export const shoesSlice = createSlice({
     name: 'shoes',
     initialState,
-
-    incrementByAmount: (state, action) => {
-        state.value += action.payload;
-    },
-
+    reducers: {
+        showImage: (state, action) => {
+            state.shoesShow = action.payload;
+        },
+    }
 })
-export const { incrementByAmount } = shoesSlice.actions;
+export const { showImage } = shoesSlice.actions;
 
 export const selectShoes = (state) => state.shoes;
 

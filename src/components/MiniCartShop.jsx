@@ -1,7 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from 'react'
-const url = '../assets/img/'
+import { useSelector, useDispatch } from 'react-redux';
 
+import {
+    showImage,
+} from '../features/shoes/shoeSlice';
+const url = '../assets/img/';
 
 const data = [
 
@@ -44,10 +48,10 @@ const data = [
 ]
 
 const MiniCartShop = () => {
-    const [fotos, setFotos] = useState()
-    const ventana = (item) => {
-        console.log(item)
+    const dispatch = useDispatch();
 
+    const ventana = (item) => {
+        dispatch(showImage(item))
     }
 
 
@@ -56,9 +60,10 @@ const MiniCartShop = () => {
     return (
         <div className='miniShopCart'>
 
+
             {
                 data.map(item =>
-                    <img onClick={() => ventana(item)} className='miniShopCartImage' src={require(`../assets/img/${item.foto}`)} />)
+                    <img key={item.nombre} onClick={() => ventana(item)} className='miniShopCartImage' src={require(`../assets/img/${item.foto}`)} />)
             }
         </div>
     )

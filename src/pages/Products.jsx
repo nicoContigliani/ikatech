@@ -86,9 +86,11 @@ const Products = () => {
             </div>
             <footer>
                 <div className="footerC1">
-                    <h6>Servicio Al cliente</h6>
-                    data <br />
-                    data
+                    <strong> Servicio Al cliente</strong> <br />
+                    CONTACTENOS <br />
+                    CAMBIOS Y DEVOLUCIONES <br />
+                    POLITICA DE LA TIENDA <br />
+                    POLITICA DE DATOS
                 </div>
             </footer>
 

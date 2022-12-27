@@ -10,10 +10,7 @@ const ButtonSend = () => {
     const shoes = useSelector(selectShoes);
     const shoesShow = shoes?.shoesShow
 
-
-
     const send = (item) => {
-        console.log("🚀 ~ file: ButtonSend.jsx:16 ~ send ~ item", item)
         dispatch(productForPay(item))
     }
     return (

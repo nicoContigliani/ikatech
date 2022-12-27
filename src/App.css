@@ -390,8 +390,9 @@
   .footerC1 {
     width: 76px;
     height: 56px;
-    left: 8px;
+    padding-left: 1%;
     top: 701px;
+    font-size: 7px;
   }
   .modalFloat{
   

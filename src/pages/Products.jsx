@@ -81,16 +81,44 @@ const Products = () => {
             <div className='strucutureCoursel'>
                 <Caroursel />
             </div>
+            <br />
             <div className='titleBody'>
                 @HUSHPUPPIESCO <br />
             </div>
             <footer>
-                <div className="footerC1">
-                    <strong> Servicio Al cliente</strong> <br />
-                    CONTACTENOS <br />
-                    CAMBIOS Y DEVOLUCIONES <br />
-                    POLITICA DE LA TIENDA <br />
-                    POLITICA DE DATOS
+
+
+
+
+
+
+                <div className="container">
+
+                    <div className="wrapper">
+                        <div class="flex-item1">
+                            <strong> Servicio Al cliente</strong> <br />
+                            CONTACTENOS <br />
+                            CAMBIOS Y DEVOLUCIONES <br />
+                            POLITICA DE LA TIENDA <br />
+                            POLITICA DE DATOS
+                        </div>
+                        <div class="flex-item1">   <strong> MI CUENTA</strong> <br />
+                            MIS PEDIDOS <br />
+                            CAMBIOS Y DEVOLUCIONES <br />
+
+                        </div>
+                        <div class="flex-item1">
+                            <strong>RECURSOS</strong> <br />
+                            TIENDAS <br />
+                            DEVOLUCIONES <br />
+
+                        </div>
+                        <div class="flex-item1">   <strong> NEWSLATTER</strong> <br />
+                            INSCRIBITE PARA SER EL PRIMER EN RECIBIR NUESTRAS NOTICIAS <br />
+
+                            <input type="text" /> </div>
+
+                    </div>
                 </div>
             </footer>
 

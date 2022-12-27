@@ -1,10 +1,10 @@
-@media (min-width:320px)  { 
+@media (min-width:320px) {
 
 
 
-  
-  
-  
+
+
+
   .LineHeader {
     position: absolute;
     display: flex;
@@ -15,22 +15,22 @@
     top: 0px;
     background: #7A4A58;
   }
-  
+
   .LineHeader2 {
     position: absolute;
     display: flex;
     width: 100%;
     /* width: 360px; */
-  
+
     position: absolute;
     width: 100%;
     height: 10px;
     left: 0px;
     top: 15px;
-  
+
     background: #D9D9D9;
   }
-  
+
   .buscador {
     margin-top: 1%;
     margin-right: 50%;
@@ -41,43 +41,43 @@
     float: right;
     background: #C8C8C8;
   }
-  
+
   .leyendSendHeader {
     position: relative;
     text-align: right;
     font-size: 8px;
     color: rgb(128, 128, 129);
     padding-right: 1%;
-  
-  
+
+
   }
-  
+
   .buttonCard {
     position: relative;
     float: right;
-  
+
     font-size: 8px;
     padding-right: 1%;
-  
+
   }
-  
-  
-  
-  
+
+
+
+
   .logo {
     position: relative;
     margin-top: 1%;
     /* width: 13px; */
     height: 24px;
     float: left;
-  
+
     background: #D9D9D9;
   }
-  
+
   .title {
     margin-top: 1%;
   }
-  
+
   .nav1 {
     /* color: black; */
     display: flex;
@@ -87,7 +87,7 @@
     width: 30%;
     padding-bottom: -1%;
   }
-  
+
   a:link,
   a:visited,
   a:active {
@@ -95,35 +95,35 @@
     color: black;
     font-size: 10px
   }
-  
+
   .wrapper {
     display: flex;
     justify-content: space-around;
-  
+
   }
-  
+
   /* .container {
     justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
   } */
-  
-  
-  
+
+
+
   .wall {
     /* position: absolute; */
     width: 180px;
     height: 155px;
-  
+
     /* background: #dadada; */
   }
-  
+
   .wallDetail {
     /* position: relative; */
     width: 180px;
     height: 158px;
-  
+
     /* background: #D9D9D9; */
   }
-  
+
   .imageShoesCenter {
     position: relative;
     /* width: 151px;
@@ -131,16 +131,16 @@
    */
     padding-left: 3%;
   }
-  
+
   .imgShoesCenter {
     position: absolute;
     top: 30px;
-  
+
     width: 153px;
     height: 82px;
-  
+
   }
-  
+
   .wallAll {
     position: absolute;
     width: 180px;
@@ -149,20 +149,20 @@
     left: 25px;
     /* background: #D9D9D9; */
   }
-  
+
   .miniShopCart {
     flex-direction: row;
     display: flex;
-  
+
   }
-  
+
   .miniShopCartImage {
     width: 40px;
     height: 25px;
     padding: 1%;
-  
+
   }
-  
+
   .leyend {
     color: rgb(128, 128, 129);
     position: absolute;
@@ -172,31 +172,31 @@
     top: 110px;
     font-size: 8px
   }
-  
+
   .WallDetailHeader {
     margin-top: 5px;
     padding-left: 25px;
   }
-  
+
   .WallDetailHeaderTitle {
     font-size: 10px
   }
-  
+
   .WallDetailHeaderCost {
     font-size: 8.47px
   }
-  
+
   .WallDetailHeaderCode {
     font-size: 6px;
     color: rgb(128, 128, 129);
   }
-  
+
   .WallDetailColor {
     margin-top: -2px;
     padding-left: 25px;
     font-size: 8.47px
   }
-  
+
   .imgShoesColor {
     top: 19px;
     position: relative;
@@ -204,13 +204,13 @@
     height: 22px;
     left: -12%;
   }
-  
+
   .WallDetailZice {
     margin-top: 23px;
     padding-left: 25px;
     font-size: 8.47px
   }
-  
+
   .box {
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -231,7 +231,7 @@
     -ms-flex-align: start;
     align-items: flex-start;
   }
-  
+
   .boxItem {
     margin: 1%;
     position: relative;
@@ -240,14 +240,14 @@
     background: #dddddd;
     text-align: center;
   }
-  
+
   .guiaSice {
     top: 5px;
     position: relative;
     font-size: 8.47px;
     left: 25px;
   }
-  
+
   .ButtonSend {
     top: 25px;
     position: relative;
@@ -258,44 +258,44 @@
     text-align: center;
     font-size: 8.47px;
     color: white;
-  
+
   }
-  
+
   .ButtonSendModal {
     background: #7A4A58;
     text-align: center;
     font-size: 8.47px;
     color: white;
     width: 98%;
-  
+
   }
-  
+
   .modals {
     border: #7A4A58;
     border-radius: 30%;
   }
-  
-  
-  
-  
+
+
+
+
   .imgShoesCenter {
     position: relative;
-  
+
   }
-  
-  
+
+
   .leyendDetailProduct {
     top: 50px;
     position: relative;
     left: 5%;
     font-size: 9px;
   }
-  
+
   .hrDetalleProducto {
     top: 40px;
     position: relative;
   }
-  
+
   .texts {
     top: 30px;
     position: relative;
@@ -303,7 +303,7 @@
     font-size: 9px;
     margin-right: 5%;
   }
-  
+
   .divisor {
     position: relative;
     width: 425px;
@@ -313,7 +313,7 @@
     font-size: 9px;
     background: #E7E6E2;
   }
-  
+
   .strucutureCoursel {
     position: relative;
     top: 40px;
@@ -322,31 +322,31 @@
     height: 130px;
     /* background-color: #C8C8C8; */
     color: black;
-  
-  
+
+
   }
-  
+
   .card {
     position: relative;
     width: 86px;
     height: 130px;
-  
-  
+
+
   }
-  
+
   .imgCard {
     position: flex;
     width: 80%;
-  
+
     /* height: 50px; */
   }
-  
+
   .imgCards {
     width: 80%;
     margin: 1%;
     margin: 1%;
   }
-  
+
   .miniShopCart2 {
     position: absolute;
     padding-top: 30%;
@@ -354,20 +354,20 @@
     padding-right: 2%;
     width: 30%;
     height: auto;
-  
-  
-  
+
+
+
   }
-  
+
   .detailCard {
     font-size: 8px;
   }
-  
+
   .card2 {
     display: flex;
     justify-content: first baseline;
   }
-  
+
   .titleBody {
     position: relative;
     justify-content: first baseline;
@@ -375,10 +375,10 @@
     width: 100%;
     text-align: center;
     background: #E7E6E2;
-  
-  
+
+
   }
-  
+
   footer {
     position: relative;
     width: 360px;
@@ -386,7 +386,7 @@
     left: 1px;
     top: 1px;
   }
-  
+
   .footerC1 {
     width: 76px;
     height: 56px;
@@ -394,8 +394,19 @@
     top: 701px;
     font-size: 7px;
   }
-  .modalFloat{
-  
-  }
- }
 
+  .modalFloat {}
+
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .flex-item1 {
+    font-size: 7px;
+    padding: 2%;
+  }
+
+
+}
